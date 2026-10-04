@@ -1,0 +1,12 @@
+{
+  "name": "tsmc-supply-chain",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "node --test",
+    "eval": "node eval/run.js"
+  }
+}

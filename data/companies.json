@@ -1,0 +1,58 @@
+{
+  "asOf": "2026-10-04",
+  "scopeNote": "這是產業角色示意，不代表各公司之間存在特定採購、供貨或投資關係；不提供即時股價或投資建議。",
+  "companies": [
+    {
+      "id": "mediatek",
+      "name": "聯發科",
+      "english": "MediaTek",
+      "ticker": "2454",
+      "market": "TWSE",
+      "role": "IC 設計",
+      "description": "以無晶圓廠模式設計系統單晶片，涵蓋手機、連網與其他應用。",
+      "source": "https://www.mediatek.com/company/discover"
+    },
+    {
+      "id": "globalwafers",
+      "name": "環球晶",
+      "english": "GlobalWafers",
+      "ticker": "6488",
+      "market": "TPEx",
+      "role": "矽晶圓",
+      "description": "製造半導體用矽晶圓，提供晶片製程所需的基材。",
+      "source": "https://www.gw-semi.com/products/",
+      "tickerSource": "https://www.sas-globalwafers.com/en/investor/corporate-governance_en/"
+    },
+    {
+      "id": "tsmc",
+      "name": "台積電",
+      "english": "TSMC",
+      "ticker": "2330",
+      "market": "TWSE",
+      "role": "晶圓製造",
+      "description": "專注替客戶製造晶片的晶圓代工。",
+      "source": "https://www.tsmc.com/english/aboutTSMC/company_profile"
+    },
+    {
+      "id": "unimicron",
+      "name": "欣興",
+      "english": "Unimicron",
+      "ticker": "3037",
+      "market": "TWSE",
+      "role": "IC 載板",
+      "description": "製造連接晶片與電路板的載板，也提供其他 PCB 產品。",
+      "source": "https://www.uniflex.com.tw/esg/en/product01.html",
+      "tickerSource": "https://www.twse.com.tw/IIH2/en/company/stock.html?code=3037"
+    },
+    {
+      "id": "ase",
+      "name": "日月光投控",
+      "english": "ASE Technology Holding",
+      "ticker": "3711",
+      "market": "TWSE",
+      "role": "封裝與測試",
+      "description": "旗下事業提供晶片封裝、測試與系統整合服務。",
+      "source": "https://www.aseglobal.com/about/"
+    }
+  ]
+}

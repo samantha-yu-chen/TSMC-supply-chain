@@ -1,0 +1,10 @@
+.env
+storage/*.sqlite
+storage/*.sqlite-*
+storage/blobs/*
+!storage/blobs/.gitkeep
+storage/published/*
+!storage/published/.gitkeep
+workspace/*
+!workspace/.gitkeep
+node_modules/

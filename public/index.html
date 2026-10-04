@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f7">
+  <title>一片晶片的台灣路線｜半導體供應鏈入門</title>
+  <meta name="description" content="從 IC 設計、矽晶圓、晶圓製造到載板與封測，認識五家台灣半導體代表公司與其產業角色。">
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#map">跳到供應鏈地圖</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="一片晶片的台灣路線首頁"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>晶片路線圖</span></a>
+    <nav aria-label="主要導覽"><a href="#map">看產業路線</a><a href="#companies">認識公司</a><a href="#sources">資料來源</a><a class="nav-lab" href="/harness">Harness Lab <span aria-hidden="true">↗</span></a></nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="section-kicker"><span class="kicker-line"></span>台灣半導體產業入門</p>
+        <h1 id="hero-title">從一片矽，<br>看懂一條<span class="outline-word">晶片鏈</span>。</h1>
+        <p class="hero-lede">一顆晶片不只是一家公司。設計、材料、製造、載板與封測，各有不同的專業。沿著五個角色，找到台灣股票背後的產業位置。</p>
+        <div class="hero-actions"><a class="primary-link" href="#map">開始探索 <span aria-hidden="true">↘</span></a><span class="hero-note">5 個角色 · 5 家代表公司</span></div>
+      </div>
+      <div class="wafer-scene" aria-label="晶圓與晶片的示意圖" role="img">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="wafer"><div class="die-grid"></div><div class="die-highlight"><span>TW</span><strong>2330</strong></div></div>
+        <div class="wafer-label label-top"><span class="label-dot"></span>矽晶圓 → 晶片</div>
+        <div class="wafer-label label-bottom">從材料到成品，<br>每一層都有角色。</div>
+      </div>
+    </section>
+
+    <section class="orientation" aria-label="閱讀提示">
+      <div class="orientation-number">01 / 03</div>
+      <p>先看角色，再看公司。</p>
+      <p>這張地圖描述產業分工，<strong>不代表畫面上的公司彼此有直接供貨關係</strong>。</p>
+    </section>
+
+    <section id="map" class="map-section" aria-labelledby="map-title">
+      <div class="section-heading"><div><p class="section-kicker"><span class="kicker-line"></span>供應鏈地圖</p><h2 id="map-title">晶片是怎麼來的？</h2></div><p>選一個環節，看看它做什麼，以及對應的台灣公司。</p></div>
+      <div class="map-layout">
+        <div class="steps" role="group" aria-label="產業環節">
+          <button type="button" class="step is-active" data-company="mediatek" aria-pressed="true"><span class="step-index">01</span><span class="step-copy"><strong>IC 設計</strong><small>決定晶片要做什麼</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+          <button type="button" class="step" data-company="globalwafers" aria-pressed="false"><span class="step-index">02</span><span class="step-copy"><strong>矽晶圓</strong><small>準備製程的基材</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+          <button type="button" class="step" data-company="tsmc" aria-pressed="false"><span class="step-index">03</span><span class="step-copy"><strong>晶圓製造</strong><small>把設計做成晶片</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+          <button type="button" class="step" data-company="unimicron" aria-pressed="false"><span class="step-index">04</span><span class="step-copy"><strong>IC 載板</strong><small>連接晶片與電路板</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+          <button type="button" class="step" data-company="ase" aria-pressed="false"><span class="step-index">05</span><span class="step-copy"><strong>封裝與測試</strong><small>保護、連接與驗證</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+        </div>
+        <aside class="detail" aria-live="polite" aria-atomic="true"><div class="detail-top"><span id="detail-index">角色 01 / 05</span><span class="detail-symbol" aria-hidden="true">⌁</span></div><div class="detail-body"><p id="detail-role" class="detail-role">IC 設計</p><h3 id="detail-name">聯發科</h3><p id="detail-english" class="detail-english">MediaTek</p><p id="detail-description" class="detail-description">以無晶圓廠模式設計系統單晶片，涵蓋手機、連網與其他應用。</p></div><div class="detail-footer"><div><span>台灣股票代號</span><strong id="detail-ticker">2454</strong><small id="detail-market">TWSE</small></div><a id="detail-source" href="https://www.mediatek.com/company/discover" target="_blank" rel="noopener noreferrer">閱讀公司資料 <span aria-hidden="true">↗</span></a></div></aside>
+      </div>
+      <p class="map-footnote">路線僅用於理解角色，實際製程與商業合作可能更複雜；部分環節可同時進行。</p>
+    </section>
+
+    <section id="companies" class="company-section" aria-labelledby="companies-title"><div class="section-heading"><div><p class="section-kicker"><span class="kicker-line"></span>公司索引</p><h2 id="companies-title">把代號放回產業位置</h2></div><p>點選公司可回到上方地圖，從它的角色開始理解。</p></div><div class="company-grid">
+      <a href="#map" data-jump="mediatek" class="company-card"><span class="company-role">IC 設計</span><strong>聯發科</strong><span class="company-meta">2454 <em>TWSE</em></span><span class="company-link">查看角色 <span aria-hidden="true">↗</span></span></a>
+      <a href="#map" data-jump="globalwafers" class="company-card"><span class="company-role">矽晶圓</span><strong>環球晶</strong><span class="company-meta">6488 <em>TPEx</em></span><span class="company-link">查看角色 <span aria-hidden="true">↗</span></span></a>
+      <a href="#map" data-jump="tsmc" class="company-card featured"><span class="company-role">晶圓製造</span><strong>台積電</strong><span class="company-meta">2330 <em>TWSE</em></span><span class="company-link">查看角色 <span aria-hidden="true">↗</span></span></a>
+      <a href="#map" data-jump="unimicron" class="company-card"><span class="company-role">IC 載板</span><strong>欣興</strong><span class="company-meta">3037 <em>TWSE</em></span><span class="company-link">查看角色 <span aria-hidden="true">↗</span></span></a>
+      <a href="#map" data-jump="ase" class="company-card"><span class="company-role">封裝與測試</span><strong>日月光投控</strong><span class="company-meta">3711 <em>TWSE</em></span><span class="company-link">查看角色 <span aria-hidden="true">↗</span></span></a>
+    </div></section>
+
+    <section id="sources" class="sources-section" aria-labelledby="sources-title"><div><p class="section-kicker"><span class="kicker-line"></span>閱讀邊界</p><h2 id="sources-title">先查證，再延伸。</h2><p>公司角色與股票代號以公司及交易所公開資料整理。這是產業教育頁，不提供即時報價、個股評價或買賣建議。資料整理日期：2026 年 10 月 4 日。</p></div><div class="source-list"><a href="https://www.mediatek.com/company/discover" target="_blank" rel="noopener noreferrer">MediaTek 公司介紹 <span aria-hidden="true">↗</span></a><a href="https://www.gw-semi.com/products/" target="_blank" rel="noopener noreferrer">GlobalWafers 產品與公司資料 <span aria-hidden="true">↗</span></a><a href="https://www.tsmc.com/english/aboutTSMC/company_profile" target="_blank" rel="noopener noreferrer">TSMC 公司資料 <span aria-hidden="true">↗</span></a><a href="https://www.uniflex.com.tw/esg/en/product01.html" target="_blank" rel="noopener noreferrer">Unimicron 產品資料 <span aria-hidden="true">↗</span></a><a href="https://www.aseglobal.com/about/" target="_blank" rel="noopener noreferrer">ASE Holdings 公司資料 <span aria-hidden="true">↗</span></a><a href="https://www.sas-globalwafers.com/en/investor/corporate-governance_en/" target="_blank" rel="noopener noreferrer">環球晶股票代號 <span aria-hidden="true">↗</span></a><a href="https://www.twse.com.tw/IIH2/en/company/stock.html?code=3037" target="_blank" rel="noopener noreferrer">欣興股票代號 <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><span class="brand mini"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>晶片路線圖</span></span><p>用產業角色認識台灣半導體。</p><a href="#hero-title">回到頁首 ↑</a></footer>
+</body>
+</html>
