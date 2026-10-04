@@ -1,0 +1,32 @@
+{
+  "name": "tsmc-supply-chain",
+  "version": "1.0.0",
+  "context_file": "data/companies.json",
+  "fixture_dir": "public",
+  "stage": {
+    "id": "build_intro_page",
+    "skill": "skills/build-intro-page.md",
+    "review_skill": "skills/review-page.md",
+    "review_asset": "index.html",
+    "write_set": ["index.html", "styles.css", "app.js"],
+    "max_asset_bytes": 100000,
+    "max_tool_calls": 9,
+    "human_gate": "owner_release_approval"
+  },
+  "checks": {
+    "assets": ["index.html", "styles.css", "app.js"],
+    "content_asset": "index.html",
+    "profile": "web_page",
+    "language": "zh-Hant-TW",
+    "required_text": ["聯發科", "2454", "環球晶", "6488", "台積電", "2330", "欣興", "3037", "日月光投控", "3711"],
+    "required_links": [
+      "https://www.mediatek.com/company/discover",
+      "https://www.gw-semi.com/products/",
+      "https://www.tsmc.com/english/aboutTSMC/company_profile",
+      "https://www.uniflex.com.tw/esg/en/product01.html",
+      "https://www.aseglobal.com/about/"
+    ],
+    "required_patterns": ["不代表|示意", "不提供|非投資建議|不構成投資建議"],
+    "max_asset_bytes": 100000
+  }
+}
